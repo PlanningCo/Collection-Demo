@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7A89D59E2741A889003B5DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89D59D2741A889003B5DB9 /* AppDelegate.swift */; };
 		7A89D5A02741A889003B5DB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89D59F2741A889003B5DB9 /* SceneDelegate.swift */; };
-		7A89D5A22741A889003B5DB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89D5A12741A889003B5DB9 /* ViewController.swift */; };
 		7A89D5A52741A889003B5DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A89D5A32741A889003B5DB9 /* Main.storyboard */; };
 		7A89D5A72741A88A003B5DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A89D5A62741A88A003B5DB9 /* Assets.xcassets */; };
 		7A89D5AA2741A88A003B5DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A89D5A82741A88A003B5DB9 /* LaunchScreen.storyboard */; };
+		7A89D5B22741A902003B5DB9 /* BasicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89D5B12741A902003B5DB9 /* BasicCollectionViewController.swift */; };
+		7A89D5B42741A9B5003B5DB9 /* BasicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89D5B32741A9B5003B5DB9 /* BasicCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A89D59A2741A889003B5DB9 /* BasicCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A89D59D2741A889003B5DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A89D59F2741A889003B5DB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A89D5A12741A889003B5DB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A89D5A42741A889003B5DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A89D5A62741A88A003B5DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A89D5A92741A88A003B5DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A89D5AB2741A88A003B5DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A89D5B12741A902003B5DB9 /* BasicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewController.swift; sourceTree = "<group>"; };
+		7A89D5B32741A9B5003B5DB9 /* BasicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				7A89D59D2741A889003B5DB9 /* AppDelegate.swift */,
 				7A89D59F2741A889003B5DB9 /* SceneDelegate.swift */,
-				7A89D5A12741A889003B5DB9 /* ViewController.swift */,
+				7A89D5B12741A902003B5DB9 /* BasicCollectionViewController.swift */,
+				7A89D5B32741A9B5003B5DB9 /* BasicCollectionViewCell.swift */,
 				7A89D5A32741A889003B5DB9 /* Main.storyboard */,
 				7A89D5A62741A88A003B5DB9 /* Assets.xcassets */,
 				7A89D5A82741A88A003B5DB9 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A89D5A22741A889003B5DB9 /* ViewController.swift in Sources */,
 				7A89D59E2741A889003B5DB9 /* AppDelegate.swift in Sources */,
+				7A89D5B42741A9B5003B5DB9 /* BasicCollectionViewCell.swift in Sources */,
+				7A89D5B22741A902003B5DB9 /* BasicCollectionViewController.swift in Sources */,
 				7A89D5A02741A889003B5DB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
