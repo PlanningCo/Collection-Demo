@@ -45,8 +45,8 @@ class BasicCollectionViewController: UICollectionViewController, UISearchResults
         
         createDataSource()
         
-        let number = 5
-        print(number)
+        let numberString = "5"
+        print(numberString)
         
         
     }
